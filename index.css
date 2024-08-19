@@ -1,0 +1,175 @@
+.card {
+    text-align: center;
+    border: none;
+
+    img {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.a-right {
+    button {
+        width: 457.5px;
+        height: 48px;
+        background: #067A46;
+        border: none;
+        color: #fff;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        font-size: 16px;
+    }
+
+    a {
+        color: #067A46;
+    }
+}
+
+.button {
+    text-align: center;
+    padding: 50px 0;
+}
+
+aside {
+    padding: 41px 0;
+}
+
+.txt {
+    text-align: center;
+}
+
+.conatainer1 img {
+    width: 100%;
+}
+
+.tug {
+    padding: 24px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.img1 {
+    width: 262px !important;
+}
+
+.a-left img {
+    width: 100%;
+}
+
+@media (max-width:1225px) {
+    .a-main {
+        flex-direction: column;
+    }
+
+    .a-right {
+        text-align: center;
+
+        button {
+            width: 300px;
+        }
+
+        p br {
+            display: none;
+        }
+    }
+}
+
+.f-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: max-content;
+    padding: 40px 0;
+}
+
+.item {
+    p {
+        margin-top: 10px;
+        color: #067A46;
+    }
+
+    b {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    span {
+        color: #067A46;
+    }
+
+    h6 {
+        color: rgb(57, 56, 56);
+    }
+
+
+}
+
+@media (max-width:1005px) {
+    .f-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: max-content;
+        padding: 40px 0;
+    }
+}
+
+@media (max-width:801px) {
+    .f-main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: max-content;
+        padding: 40px 0;
+    }
+}
+
+@media (max-width:769px) {
+    .f-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: max-content;
+        padding: 40px 0;
+    }
+}
+
+@media (max-width:405px) {
+    .f-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: max-content;
+        padding: 40px 0;
+    }
+}
+
+.end {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+    padding: 20px 0;
+
+}
+
+.f-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        color: #067A46;
+        font-weight: 600;
+    }
+    h6{
+        margin: 0;
+    }
+}
